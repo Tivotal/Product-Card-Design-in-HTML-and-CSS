@@ -1,0 +1,6 @@
+<li>Chipset: Apple A15 Bionic (5 nm)</li>
+<li>Resolution:	1284 x 2778 pixels, 19.5:9 ratio</li>
+<li>Memory: 128GB 6GB RAM</li>
+<li>Bluetooth: 5.0, A2DP, LE</li>
+<li>Battery: Li-Ion 4352 mAh, non-removable (16.75 Wh)</li>
+<li>Video: 4K@24/25/30/60fps</li>

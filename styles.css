@@ -1,0 +1,117 @@
+/* Created by Tivotal */
+
+/* Google Fonts(Poppins) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #0b8c4c;
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background: #0b8c4c;
+}
+
+.wrapper {
+  height: 300px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .left,
+.wrapper .right {
+  height: 100%;
+  width: 50%;
+}
+
+.wrapper .left {
+  background: #fff;
+  z-index: 12;
+  border-radius: 5px 0 0 5px;
+  text-align: center;
+}
+
+.wrapper .left .logo {
+  font-size: 28px;
+  margin-top: 18px;
+  font-weight: 600;
+}
+
+.wrapper .left .stars {
+  font-size: 18px;
+  color: #0b8c4c;
+  margin-top: 8px;
+}
+
+.wrapper .left .about p {
+  color: #8d8d8d;
+  font-size: 17px;
+}
+
+.wrapper .left button {
+  background: #0b8c4c;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  display: inline-flex;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: all 0.3s ease;
+}
+
+.wrapper .left button:hover {
+  transform: scale(0.98);
+}
+
+.wrapper .left button h1 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 12px;
+}
+
+.wrapper .right {
+  background: url(img.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.wrapper .right ul {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  padding: 10px 26px;
+  transition: all 0.4s ease;
+  margin-left: -300px;
+}
+
+.wrapper .right ul li {
+  color: #fff;
+  font-size: 15px;
+}
+
+.wrapper .right:hover ul {
+  margin-left: 0px;
+}
